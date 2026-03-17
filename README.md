@@ -6,7 +6,6 @@ This project demonstrates the end-to-end development of a modern data warehouse 
 
 Designed as a portfolio project, it highlights practical skills in data engineering and business intelligence following industry best practices.
 
-🏗️ Data Architecture
 <img width="955" height="563" alt="image" src="https://github.com/user-attachments/assets/7edcd12f-f80b-40bd-be51-ece59d6f31a2" />
 
 ## Key Capabilities Demonstrated
@@ -17,6 +16,7 @@ Designed as a portfolio project, it highlights practical skills in data engineer
 • SQL analytics queries
 • Data quality validation
 
+🏗️ Data Architecture
 This project follows a modern layered architecture inspired by the Medallion approach:
 
 🥉 Bronze Layer – Raw Data
