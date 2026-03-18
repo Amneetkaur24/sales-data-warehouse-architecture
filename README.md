@@ -100,27 +100,55 @@ Git & GitHub
 
 Structure
 
-data-warehouse-project/
-- datasets/
-  - (ERP and CRM raw CSV files)
-
-- docs/
-  - data_architecture.drawio
-  - data_models.drawio
-  - data_flow.drawio
-  - data_catalog.md
-
-- scripts/
-  - bronze/   (Raw data loading scripts)
-  - silver/   (Data cleansing & transformation scripts)
-  - gold/     (Star schema & analytical model scripts)
-
-- tests/
-  - (Data validation and testing queries)
-
-- README.md
-- LICENSE
-- .gitignore
+sales-data-warehouse-architecture
+│
+├── datasets
+│   ├── CUST_AZ12.csv
+│   ├── Customers.csv
+│   ├── Employees.csv
+│   ├── LOC_A101.csv
+│   ├── Orders.csv
+│   ├── OrdersArchive.csv
+│   ├── PX_CAT_G1V2.csv
+│   ├── Products.csv
+│   ├── cust_info.csv
+│   ├── prd_info.csv
+│   └── sales_details.csv
+│
+├── docs
+│   ├── Data Catalog.md
+│   ├── Data Flow Diagrams.png
+│   ├── Data Mart Star Schema.png
+│   ├── Integration Model.png
+│   ├── data architecture.png
+│   └── naming_conventions
+│
+├── scripts
+│   ├── Data Analytics & Reporting
+│   │   ├── Advanced_Analytics
+│   │   ├── Customer Report.Sql
+│   │   └── Product Report.Sql
+│   │
+│   ├── ETL
+│   │   ├── bronze
+│   │   │   ├── ddl_bronze.SQL
+│   │   │   └── proc_load_bronze
+│   │   │
+│   │   ├── silver
+│   │   │   ├── ddl_silver.sql
+│   │   │   └── proc_load_silver.sql
+│   │   │
+│   │   └── gold
+│   │       └── ddl_gold.sql
+│   │
+│   └── init_database.sql
+│
+├── tests
+│   ├── quality_checks_gold.sql
+│   └── quality_checks_silver.sql
+│
+├── LICENSE
+└── README.md
 
 
 
