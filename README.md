@@ -2,11 +2,11 @@ Data Warehouse and Analytics Project
 
 Welcome to the Data Warehouse and Analytics Project repository! 🚀
 
+<img width="955" height="563" alt="image" src="https://github.com/user-attachments/assets/7edcd12f-f80b-40bd-be51-ece59d6f31a2" />
+
 This project demonstrates the end-to-end development of a modern data warehouse using SQL Server, including ETL processes, data modeling, and SQL-based analytics.
 
 Designed as a portfolio project, it highlights practical skills in data engineering and business intelligence following industry best practices.
-
-<img width="955" height="563" alt="image" src="https://github.com/user-attachments/assets/7edcd12f-f80b-40bd-be51-ece59d6f31a2" />
 
 ## Key Capabilities Demonstrated
 
